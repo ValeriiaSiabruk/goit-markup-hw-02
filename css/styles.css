@@ -1,0 +1,109 @@
+:root {
+  --black: #212121;
+  --gray: #757575;
+  --lite-gray: #f5f4fa;
+  --blue: #2196f3;
+  --white: #fff;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--black);
+}
+
+.header-logo {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.192;
+  color: var(--blue);
+}
+
+.header-logo span {
+  color: var(--black);
+}
+
+.header-navigation {
+  font-weight: 500;
+  line-height: 1.142;
+  color: var(--black);
+}
+
+.header-navigation:hover {
+  color: var(--blue);
+}
+
+.header-navigation:focus {
+  color: var(--blue);
+}
+
+.header-contacts {
+  font-weight: 500;
+  line-height: 1.172;
+  color: var(--gray);
+}
+
+.header-contacts:hover {
+  color: var(--blue);
+}
+
+.header-contacts:focus {
+  color: var(--blue);
+}
+
+.menu-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  background-color: var(--lite-gray);
+  cursor: pointer;
+}
+
+.menu-button:hover {
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+.works-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+}
+
+.works-description {
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--gray);
+}
+
+.footer {
+  background-color: var(--black);
+}
+
+.footer-logo {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.192;
+  color: var(--blue);
+}
+
+.footer-logo span {
+  color: var(--white);
+}
+
+.address {
+  line-height: 1.714;
+  color: var(--white);
+}
+
+.footer-contacts {
+  line-height: 1.714;
+  color: var(--gray);
+}
+
+.footer-contacts:hover {
+  color: var(--blue);
+}
+
+.footer-contacts:focus {
+  color: var(--blue);
+}
